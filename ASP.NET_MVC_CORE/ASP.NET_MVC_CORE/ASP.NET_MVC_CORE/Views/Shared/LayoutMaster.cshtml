@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="Row">
+            <div class="Row Head">
+                @Html.Partial("Head")
+                <div class=" Row card-body col-12">
+                    <div class="left col-3">   
+                @Html.Partial("Menu")    
+                    </div>
+                    <div class=" right col-9">
+                        @RenderBody()
+                                    </div>
+                    <div class="Row Foot col-12">@Html.Partial("Foot")</div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+   
+</body>
+</html>
