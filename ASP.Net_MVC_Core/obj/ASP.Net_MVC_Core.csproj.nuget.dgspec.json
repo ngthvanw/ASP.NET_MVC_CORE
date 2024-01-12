@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hoangdoan/Library/Mobile Documents/com~apple~CloudDocs/EDU/BaiTapLapTrinhWeb_ASP.Net MVC Core/SourceCode/ASP.Net_MVC_Core/ASP.Net_MVC_Core.csproj": {}
+    "G:\\NguyenTheVan\\ASP.Net_MVC_Core\\ASP.Net_MVC_Core.csproj": {}
   },
   "projects": {
-    "/Users/hoangdoan/Library/Mobile Documents/com~apple~CloudDocs/EDU/BaiTapLapTrinhWeb_ASP.Net MVC Core/SourceCode/ASP.Net_MVC_Core/ASP.Net_MVC_Core.csproj": {
+    "G:\\NguyenTheVan\\ASP.Net_MVC_Core\\ASP.Net_MVC_Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hoangdoan/Library/Mobile Documents/com~apple~CloudDocs/EDU/BaiTapLapTrinhWeb_ASP.Net MVC Core/SourceCode/ASP.Net_MVC_Core/ASP.Net_MVC_Core.csproj",
+        "projectUniqueName": "G:\\NguyenTheVan\\ASP.Net_MVC_Core\\ASP.Net_MVC_Core.csproj",
         "projectName": "ASP.Net_MVC_Core",
-        "projectPath": "/Users/hoangdoan/Library/Mobile Documents/com~apple~CloudDocs/EDU/BaiTapLapTrinhWeb_ASP.Net MVC Core/SourceCode/ASP.Net_MVC_Core/ASP.Net_MVC_Core.csproj",
-        "packagesPath": "/Users/hoangdoan/.nuget/packages/",
-        "outputPath": "/Users/hoangdoan/Library/Mobile Documents/com~apple~CloudDocs/EDU/BaiTapLapTrinhWeb_ASP.Net MVC Core/SourceCode/ASP.Net_MVC_Core/obj/",
+        "projectPath": "G:\\NguyenTheVan\\ASP.Net_MVC_Core\\ASP.Net_MVC_Core.csproj",
+        "packagesPath": "C:\\Users\\SinhVien\\.nuget\\packages\\",
+        "outputPath": "G:\\NguyenTheVan\\ASP.Net_MVC_Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/hoangdoan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\SinhVien\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://API.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -41,31 +42,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.Abstractions": {
-              "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -79,6 +72,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -87,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
